@@ -6,9 +6,9 @@
 #include "addons/RTDBHelper.h"
 
 #define WIFI_SSID ""
-#define WIFI_PASSWORD "123123456"
-#define API_KEY "AIzaSyBSjD-YEVOw0uyE-ae5DYgaIr2uZaKP6AU"
-#define DATABASE_URL "https://smart-helmet-system-c95f1-default-rtdb.asia-southeast1.firebasedatabase.app/"
+#define WIFI_PASSWORD ""
+#define API_KEY ""
+#define DATABASE_URL ""
 
 FirebaseData fbdo;
 FirebaseAuth auth;
