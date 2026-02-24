@@ -47,13 +47,6 @@ The system ensures that safety parameters are met before vehicle ignition and co
 4. Data is transmitted to remote dashboard.
 5. Alerts are generated if unsafe conditions are detected.
 
----
-
-## 📷 System Demonstration
-(Add images here)
-- Circuit diagram
-- Hardware setup
-- Dashboard screenshot
 
 ---
 
