@@ -8,15 +8,15 @@ The system ensures that safety parameters are met before vehicle ignition and co
 ---
 
 ## 🎯 Objectives
-- Detect harmful gas levels
-- Monitor helmet wearing status
-- Track real-time location
-- Transmit data to cloud/dashboard
-- Improve rider safety using IoT technology
+- Monitor environmental conditions (Temperature & Humidity)
+- Detect hazardous gas levels (MQ2 Sensor)
+- Track real-time GPS location
+- Provide IoT-based remote monitoring
+- Improve rider safety through real-time alerts
 
 ---
 
-## 🛠 System Architecture
+##  System Architecture
 
 ### Hardware Components
 - ESP32 Microcontroller
@@ -32,32 +32,51 @@ The system ensures that safety parameters are met before vehicle ignition and co
 
 ---
 
-## ⚙️ System Features
-- Real-time environmental monitoring
-- Location tracking using GPS
-- IoT-based remote data visualization
-- Safety condition validation before ignition
+## ⚙️ Features
+
+- 🌡 Real-time Temperature Monitoring
+- 💧 Humidity Detection
+- 🧪 Gas Level Monitoring
+- 📍 GPS Location Tracking
+- ☁ Cloud Data Transmission via Firebase
+- 📊 Real-time Web Dashboard (Next.js)
+- 🚨 LED-based Safety Indication System
 
 ---
 
-## 🔌 Working Principle
-1. Sensors collect environmental and safety data.
-2. ESP32 processes sensor inputs.
-3. Safety validation logic checks conditions.
-4. Data is transmitted to remote dashboard.
-5. Alerts are generated if unsafe conditions are detected.
+##  Working Principle
+1. Sensors continuously collect environmental and safety data.
+2. ESP32 processes and evaluates sensor readings.
+3. LED indicators display local safety status.
+4. Sensor data is uploaded to Firebase every 5 seconds.
+5. GPS coordinates are transmitted if a valid signal is available.
+6. The Next.js dashboard displays real-time system status.
+7. 
+---
 
+##  Cloud Integration
+
+The system uses:
+- Firebase Realtime Database
+- Firebase Authentication
+- WiFi communication via ESP32
 
 ---
 
-## 📈 Future Improvements
-- GSM-based communication
-- Mobile application integration
-- Data logging and analytics
-- AI-based safety prediction
+## Web Dashboard (Next.js)
+
+The web application:
+- Listens to Firebase in real time
+- Displays live sensor data
+- Shows GPS coordinates
+- Provides visual safety indicators
 
 ---
 
 ## 🧑‍💻 Author
-Amila Sampath  
-Embedded Systems & IoT Developer
+**Amila Sampath**  
+Embedded Systems & IoT Developer  
+Wayamba University of Sri Lanka  
+
+GitHub: https://github.com/amilasampath0130  
+LinkedIn: https://linkedin.com/in/amilasampath0130  
